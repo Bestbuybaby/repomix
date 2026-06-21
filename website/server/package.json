@@ -14,9 +14,9 @@
     "cloud-deploy": "gcloud builds submit --config=cloudbuild.yaml ."
   },
   "dependencies": {
-    "@hono/node-server": "^1.19.8",
+    "@hono/node-server": "^1.19.14",
     "fflate": "^0.8.2",
-    "hono": "^4.11.7",
+    "hono": "^4.12.26",
     "repomix": "github:yamadashy/repomix#main",
     "winston": "^3.19.0",
     "zod": "^4.3.5"
@@ -26,7 +26,7 @@
     "@types/node": "^24.10.6",
     "@typescript/native-preview": "^7.0.0-dev.20260109.1",
     "rimraf": "^6.1.2",
-    "tsx": "^4.21.0",
+    "tsx": "^4.22.4",
     "typescript": "^5.9.3",
     "rolldown": "^1.0.0-beta.59",
     "rollup-plugin-swc3": "^0.12.1"
